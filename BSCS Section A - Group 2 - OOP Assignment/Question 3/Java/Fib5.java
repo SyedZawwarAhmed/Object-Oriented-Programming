@@ -10,11 +10,10 @@ public class Fib5 {
             next = oldLast + next;
             return oldLast;
         });
-    } 
+    }
 
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         Fib5 fib5 = new Fib5();
-        fib5.stream().limit(51).forEachOrdered(System.out::println);
+        fib5.stream().limit(5).forEachOrdered(System.out::println);
     }
 }
-
