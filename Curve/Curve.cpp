@@ -105,9 +105,6 @@ public:
         {
             this->points[i].x = this->coefficientOfxT * newTArray[i] + this->coefficientOfxc;
             this->points[i].y = this->coefficientOfyT * newTArray[i] + this->coefficientOfyc;
-            cout << this->points[i].x << " " << this->points[i].y << endl;
-
-            cout << newTArray[i] << endl;
         }
     }
 
