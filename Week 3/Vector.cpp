@@ -1,13 +1,13 @@
-#include <iostream>
+#include <iostream>         
 #include <string.h>
 
 
 using namespace std;
 
 class Vector {
-    float vertical;
+    float vertical; 
     float horizontal;
-
+                        
     public:
     // null constructor
     Vector() {

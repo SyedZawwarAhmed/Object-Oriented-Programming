@@ -7,6 +7,9 @@ int main() {
     Vector v1;
     v1.display();
 
+    Vector newVector = Vector();
+    cout << "new vector" << newVector << endl;
+
     Vector v2(1,2);
     v2.display();
 

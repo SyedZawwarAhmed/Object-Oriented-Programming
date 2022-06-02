@@ -5,9 +5,9 @@ class Matrix2dArray implements Matrix {
         this.data = new double[height][width];
     }
 
-    private static int min(int a, int b) {
-        return a < b ? a : b;
-    }
+    // private static int min(int a, int b) {
+    //     return a < b ? a : b;
+    // }
 
     public double getElem(int i, int j) {
         return data[i][j];
